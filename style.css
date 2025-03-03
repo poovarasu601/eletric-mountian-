@@ -1,0 +1,72 @@
+/* Global Styles */
+body {
+    font-family: 'Courier New', monospace;
+    margin: 0;
+    padding: 0;
+    background-color: #0c0b0b;
+}
+
+header {
+    background-color: #427a7a;
+    color: #cec27e;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #413b91;
+}
+
+nav a {
+    color: #d85d5d;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    flex: 1;
+}
+
+nav a:hover {
+    background-color: #bd3a3a;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.main-content {
+    flex: 3;
+    padding: 20px;
+    background-color: #946f6f;
+    margin-right: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    padding: 20px;
+    background-color: #71c0a2;
+}
+
+footer {
+    background-color: #1c153d;
+    color: #795959;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h2 {
+    color: #352f86;
+}
+
+article p {
+    color: #faf3f3;
+}
